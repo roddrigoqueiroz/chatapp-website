@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.4375rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  max-width: 100%;
+  margin-right: 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.4375rem;
+  font-weight: 500;
+  color: #3F4951;
+}
+
+h3 {
+  color: #181A2D;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+hr {
+  color: rgba(16, 27, 79, 0.22);
+  width: 15%;
+  position: relative;
+  right: 14.5%;
+  margin-top: 25vh;
+  margin-bottom: 10vh;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3125rem;
+  font-weight: normal;
+}
+
+span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/*First section*/
+.button {
+  background-color: #E31922;
+  border-radius: 60px;
+  color: white;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-top: 6vh;
+  margin-right: 7%;
+  margin-left: -2%;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #E2454C;
+}
+
+.ghost-button {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  padding: 14px 50px;
+}
+
+.ghost-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.chatapp-logo {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  top: 37px;
+  text-decoration: none;
+}
+
+.first-section {
+  padding: 120px 7vw 800px;
+  position: relative;
+  background-color: #181A2D;
+}
+
+.hero-image {
+  float: right;
+  max-width: 50%;
+  margin-right: 15px;
+  margin-top: 50px;
+}
+
+.hero-text {
+  color: white;
+  max-width: 40%;
+  position: absolute;
+  top: 250px;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 45px;
+  right: 7vw;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-links:hover {
+  border-bottom: solid;
+  border-color: white;
+  border-bottom-width: 100%;
+  padding-bottom: 10px;
+}
+
+.semi-ghost-button{
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+  padding: 8px 21px;
+}
+
+.semi-ghost-button:hover {
+  background-color: white;
+  color: #181A2D;
+  border: none;
+}
+
+.top-logo {
+  color: white;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+/*Middle Section*/
+.middle-section {
+  padding: 120px 7vw 150px;
+  position: relative;
+  text-align: center;
+}
+
+.middle-section-paragraph {
+  max-width: 65%;
+  color: #3F4951;
+  line-height: 2;
+  margin: 5vh auto 15vh auto;
+}
+
+.middle-section-img {
+  max-width: 100%;
+}
+
+/*Bottom-section*/
+.bottom-button {
+  margin-left: 0;
+  margin-right: 5%;
+}
+
+.bottom-ghost-button {
+  color: #101B4F;
+  border-color: #101B4F;
+}
+
+.bottom-ghost-button:hover {
+  background-color: rgba(16, 27, 79, 0.2);
+}
+
+.bottom-section {
+  background-color: rgba(16, 27, 79, 0.1);
+  padding: 120px 7vw;
+  text-align: left;
+  position: relative;
+}
+
+.bottom-section-image {
+  float: left;
+  max-width: 60%;
+  margin-left: -9%;
+  margin-right: 4vw;
+}
+
+.bottom-section-paragraph {
+  color: #3F4951;
+  line-height: 2;
+  margin-bottom: 8vh;
+}
+
+.five-star-paragraph {
+  width: 20%;
+  position: absolute;
+  right: 13%;
+  bottom: 2%;
+}
+
+.stars {
+  float: left;
+  position: absolute;
+  left: 55%;
+  bottom: 13%;
+}
+
+/*Footer*/
+.adress {
+  display: inline-block;
+  width: 130%;
+}
+
+.columns {
+  display: inline-block;
+  position: relative;
+  top: 60%;
+  margin-right: 4.36vw;
+  width: 130px;
+}
+
+.copyright {
+  color: rgba(63, 73, 81, 0.81);
+  display: inline-block;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  margin-bottom: 120px;
+  width: 120%;
+  position: relative;
+  top: 10em;
+}
+
+.footer-links {
+  color: rgba(63, 73, 81, 0.81);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  line-height: 2.5;
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  color: #3F4951;
+}
+
+.footer-container {
+  padding: 100px 7vw;
+  position: relative;
+}
+
+.footer-logo {
+  color: #101B4F;
+  font-size: 1.9375rem;
+  position: relative;
+  bottom: 50%;
+}
+
+.footer-text {
+  color: rgba(63, 73, 81, 0.81);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.last-column {
+  margin-right: 0;
+}
